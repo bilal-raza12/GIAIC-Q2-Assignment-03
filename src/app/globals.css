@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    background-color: rgb(22, 7, 104);
+    color: white;
+    /* overflow: scroll; */
+    height: 100%;
+
+
+}
+.navbar{
+    height: 100px;
+    margin-bottom: 5px;
+    padding: 8px 10px;
+    position: fixed;
+    /* margin: 0 auto; */
+    background-color: rgb(22, 22, 124);
+    color: white;
+    width: 100%;
+    
+
+    /* box-shadow: 2px 2px 2px rgba(5, 109, 33, 0.5); */
+
+    
+    
+    
+    /* background-color: red; */
+    
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 31px 30px;
+    margin-bottom: 20px;
+    
+
+  
+}
+
+.navbar  ul li {
+    margin: 0px 30px;
+
+}
+
+.navbar ul li:hover{
+    text-decoration: underline;
+}
+
+
+   
+.intro {
+    /* background-color: black;
+    color: white; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .description {
+    
+    height: 130;
+    font-size: 33px;
+    width: 500px;
+  }
+  
+  .profile-pic {
+    height: 90vh;
+    width: 60vh;
+    /* border: 2px solid red;     */
+  }
+  
+  .profile-pic img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 78px;
+  }
+  
+  span{
+    color: rgb(37, 227, 227);
+  }
+  
+footer{
+  height: 100px;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.portfolio{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid purple;
+  padding: 80px;
+}
+.main{
+  min-height: 70vh;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main h1{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.main p{
+  
+  font-size: 23px;
+  margin-bottom: 20px;
+}
