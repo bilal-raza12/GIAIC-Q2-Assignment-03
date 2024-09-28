@@ -6,7 +6,7 @@
 
 
 nav{
-  background-color: black;
+  background-color: rgb(25, 39, 130);
   padding: 10px 20px;
   color: white;
   display: flex;
@@ -22,6 +22,7 @@ nav ul {
   padding-left: 290px;
   
  margin-top: 5px;
+ color: white;
 }
 
 nav ul li {
@@ -33,7 +34,7 @@ nav ul li:hover {
 }
 
 footer{
-  background-color: rgb(172, 42, 42);
+  background-color: rgb(25, 8, 41);
   color: white;
   padding: 10px 10px;
   text-align: center;
@@ -95,12 +96,19 @@ footer{
   font-size: 20px;
   font-weight: bold;
  }
+ .home-page-content{
+  background-color: rgb(23, 23, 120);
+  color: white;
+ }
+ strong{
+  color: aqua;
+ }
 
 
 
  @media (max-width: 768px) {
   nav , footer{
-    width: 100%;
+    width: 100vw;
   }
   
     nav ul {
@@ -166,14 +174,14 @@ footer{
   } */
    nav ul{
     padding-bottom: 17px;
-    margin-right: 10px;
+    margin-right: 20px;
    }
    nav ul li{
     margin-bottom: 20px;
     padding: 5px;
-    margin-right: 5px;
+    margin-right: 15px;
    }
   nav,footer{
-    width: 100%;
+    width: 100vw;
   }
  }
