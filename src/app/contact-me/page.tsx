@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div>
   <Navbar />
-  <main className="main">
+  <main className="main contact-me">
     <h1>I will update my contact page very soon....</h1>
     
   </main>
