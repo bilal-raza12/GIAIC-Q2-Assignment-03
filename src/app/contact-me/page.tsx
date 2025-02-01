@@ -4,7 +4,7 @@ import Footer from '@/components/footer'
 const Contact = () => {
   return (
     <div>
-  <Navbar />
+  {/* <Navbar /> */}
   <main className="main contact-me">
     <h1>I will update my contact page very soon....</h1>
     
